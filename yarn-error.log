@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files (x86)\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add vue vuex axios cross-env laravel-mix pusher adonis-pusher pusher-js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Brackets\command;C:\Program Files\Redis\;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\wamp\bin\php\php7.2.4;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Users\Dell\flutter\bin;C:\Program Files\Dart\dart-sdk\bin;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Users\Dell\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\Dell\AppData\Local\Programs\Python\Python36-32\;C:\Ruby23\bin;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Roaming\Composer\vendor\bin;C:\Users\Dell\AppData\Local\atom\bin;C:\Program Files\Microsoft VS Code\bin;C:\MongoDB\bin;C:\Program Files\Heroku\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Roaming\npm;C:\Users\Dell\AppData\Local\Yarn\bin;;C:\Program Files\Nanobox;C:\Users\Dell\AppData\Local\hyper\app-2.0.0\resources\bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  9.4.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.17.35:443
+      at Object._errnoException (util.js:1003:13)
+      at _exceptionWithHostPort (util.js:1024:20)
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1194:14)
+
+npm manifest: 
+  {
+    "name": "adonis-fullstack-app",
+    "version": "4.1.0",
+    "adonis-version": "4.1.0",
+    "description": "The fullstack application boilerplate for Adonisjs",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "node ace test",
+      "asset-dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "asset-watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "asset-watch-poll": "npm run watch -- --watch-poll",
+      "asset-hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+      "asset-prod": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  
+    },
+    "keywords": [
+      "adonisjs",
+      "adonis-app"
+    ],
+    "author": "",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+      "@adonisjs/ace": "^5.0.2",
+      "@adonisjs/auth": "^3.0.5",
+      "@adonisjs/bodyparser": "^2.0.3",
+      "@adonisjs/cors": "^1.0.6",
+      "@adonisjs/fold": "^4.0.8",
+      "@adonisjs/framework": "^5.0.7",
+      "@adonisjs/ignitor": "^2.0.6",
+      "@adonisjs/lucid": "^5.0.4",
+      "@adonisjs/session": "^1.0.25",
+      "@adonisjs/shield": "^1.0.6"
+    },
+    "devDependencies": {},
+    "autoload": {
+      "App": "./app"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
