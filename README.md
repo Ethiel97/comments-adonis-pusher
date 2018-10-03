@@ -1,8 +1,8 @@
 ## Realtime search feature with Pusher.
 
-A live comment system with Adonis.js, Vue.js using Pusher for realtime stuff 
+A live commenting system with Adonis.js, Vue.js using Pusher for realtime stuff 
 
-![application screenshot](public/images/live_comments_adonis_pusher.gif "Realtime search feature with Adonis and Pusher")
+![application screenshot](public/images/live_comments_adonis_pusher.gif "A live commenting system with Adonis.js, Vue.js and Pusher")
 
 
 ## Getting Started
