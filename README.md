@@ -14,7 +14,7 @@ Make sure you have `npm` and `yarn` on your local machine
 4.  Set up your database in your `.env` file and run php `adonis migration:run`
 5.  Execute `npm run asset-dev` to build project assets
 6.  Execute `adonis serve --dev` to run the project in your browser
-7.  See the [tutorial](https://pusher.com/tutorials/search-laravel-vue) for useful notes 
+7.  See the [tutorial](https://pusher.com/tutorials/live-commenting-adonis-vue) for useful notes 
 
 ### Prerequisites
 
