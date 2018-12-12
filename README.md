@@ -16,6 +16,9 @@ Make sure you have `npm` and `yarn` on your local machine
 6.  Execute `adonis serve --dev` to run the project in your browser
 7.  See the [tutorial](https://pusher.com/tutorials/search-laravel-vue) for useful notes 
 
+## Extra
+For a quick overview of Pusher Channels with Adonis, refer to this [useful tutorial](https://pusher.com/tutorials/pusher-channels-adonis)
+
 ### Prerequisites
 
 * Adonis
